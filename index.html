@@ -5,60 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nihal | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">Nihal.dev</div>
-    </nav>
 
+    <!-- Hero Section -->
     <header class="hero">
         <div class="hero-content">
-            <h1>Syed Nafiuzzaman Nihal</h1>
+            <h1>Syed Nafiuzzaman <span>Nihal</span></h1>
             <p>Aspiring Backend Developer | Python & Django Enthusiast</p>
-            <a href="#contact" class="btn">Get In Touch</a>
+            <a href="mailto:syednafiuzzamannihal@gmail.com" class="btn">Get In Touch</a>
         </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a cse student. I am from Narsingdi. I'm passionate about building scalable backend systems. Currently, I am on a journey to become a professional developer within a year.</p>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <div class="edu-item">
-            <h3>Secondary School Certificate (SSC)</h3>
-            <p>Passed in 2020</p>
-        </div>
-        <div class="edu-item">
-            <h3>Higher Secondary Certificate (HSC)</h3>
-            <p>Passed in 2022</p>
-        </div>
-        <div class="edu-item">
-            <h3>B.Sc. in Computer Science & Engineering</h3>
-            <p>Ongoing / Incomplete Background</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <h2>My Skills</h2>
-        <div class="skill-tags">
-            <span>Python</span>
-            <span>Django</span>
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>Git & GitHub</span>
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a CSE student from Narsingdi, Bangladesh. I am passionate about building scalable backend systems and currently on a journey to become a professional developer within a year.</p>
+            
+            <div class="info-cards">
+                <div class="card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Education</h3>
+                    <p><strong>HSC:</strong> 2022</p>
+                    <p><strong>SSC:</strong> 2020</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h3>Skills</h3>
+                    <p>Python, Django, HTML5, CSS3, Git & GitHub</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:syednafiuzzamannihal@gmail.com" style="color: #00896b; text-decoration: none;">syednafiuzzamannihal@gmail.com</a></p>
-        <p>Location: Narsingdi, Bangladesh</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Syed Nafiuzzaman Nihal. All rights reserved.</p>
+    <!-- Contact Section -->
+    <footer class="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <p><i class="fas fa-envelope"></i> syednafiuzzamannihal@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Narsingdi, Bangladesh</p>
+            <hr>
+            <p class="copyright">&copy; 2026 Syed Nafiuzzaman Nihal. All rights reserved.</p>
+        </div>
     </footer>
+
 </body>
-</html>
+    </html>
